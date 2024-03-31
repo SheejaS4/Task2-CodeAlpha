@@ -1,0 +1,40 @@
+  body {
+    font-family: Arial, sans-serif;
+    background-image: url("expense.png");
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  h1{
+    text-align: center;
+    color:#0D98BA;
+  }
+  form {
+    margin-bottom: 20px;
+  }
+  input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  button {
+    padding: 5px 10px;
+    background-color: rgb(10, 188, 188);
+    cursor: pointer;
+  }
+  ul {
+    list-style-type: none;
+    color:#09afd9;
+    padding: 0;
+  }
+  li {
+    margin-bottom: 10px;
+  }
+  .edit-btn, .delete-btn {
+    padding: 3px 5px;
+    cursor: pointer;
+  }
+
+  .contents{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
